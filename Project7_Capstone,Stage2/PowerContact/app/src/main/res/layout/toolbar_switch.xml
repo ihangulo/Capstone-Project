@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.SwitchCompat
+    android:id="@+id/switch_demo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/title_demo_button"
+    android:contentDescription="@string/title_demo_button_desc"
+    xmlns:android="http://schemas.android.com/apk/res/android"/>

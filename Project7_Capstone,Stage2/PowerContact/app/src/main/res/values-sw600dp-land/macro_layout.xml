@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    // layout
+    // 레이아웃 관련된 것만 담는 곳. 타입 상관없음
+    // activity_main.xml
+    <item name="powercontact_appbar_width" type="fraction">100%</item>
+
+    <item name="match_parent" format="integer" type="dimen">-1</item> // for support match_parent
+
+
+</resources>

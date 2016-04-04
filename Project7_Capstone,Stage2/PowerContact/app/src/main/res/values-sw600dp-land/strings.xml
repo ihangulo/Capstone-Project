@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 메뉴옵션(검색메뉴) -->
+    <string name="menu_option_show_as_action" translatable="false">always</string>
+
+
+</resources>

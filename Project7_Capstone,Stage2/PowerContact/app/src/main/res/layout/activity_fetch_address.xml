@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/btn_show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/find"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/scrollView"
+        android:layout_toEndOf="@+id/scrollView"/>
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner_distance"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/btn_show"
+        android:layout_toEndOf="@+id/btn_show"
+        android:theme = "@style/AppMainTheme"
+        android:popupBackground="@color/black"
+        /><!-- 임시로 -->
+
+    <EditText
+        android:id="@+id/et_place"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint"
+        android:inputType="text"
+        android:layout_toLeftOf="@+id/scrollView"
+        android:layout_toStartOf="@+id/scrollView"/>
+
+    <Button
+        android:id="@+id/btn_sync"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_place"
+        android:text="DB Sync"
+        />
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_below="@id/btn_sync"
+        android:layout_centerHorizontal="true" android:layout_marginTop="72dp">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_sync"
+        />
+    </ScrollView>
+
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/scrollView"
+        class="com.google.android.gms.maps.SupportMapFragment" />
+
+
+
+
+</RelativeLayout>

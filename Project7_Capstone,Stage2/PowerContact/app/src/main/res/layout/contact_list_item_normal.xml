@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:background="@drawable/contact_touch_selector"
+    android:gravity="center_vertical"
+    android:paddingLeft="@dimen/contact_list_item_padding_left"
+    android:paddingStart="@dimen/contact_list_item_padding_left"
+    android:paddingRight="@dimen/contact_list_item_padding_right"
+    android:paddingEnd="@dimen/contact_list_item_padding_right"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <QuickContactBadge
+        android:id="@+id/photo_thumbnail"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:layout_width="?android:attr/listPreferredItemHeight"
+        android:layout_marginRight="4dp"
+        android:layout_marginEnd="4dp"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="false"
+        android:padding="8dp"
+        />
+        <!--android:contentDescription="contact image"-->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|start"
+                    android:fontFamily="sans-serif-light"
+                    android:singleLine="true"
+                    android:text="name"
+                    android:ellipsize="marquee"
+                    android:textSize="16sp"
+                    android:textColor="@color/black"
+                    />
+                <TextView
+                    android:id="@+id/address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left|start"
+                    android:fontFamily="sans-serif"
+                    android:singleLine="true"
+                    android:ellipsize="marquee"
+
+                    android:text="address"
+                    android:textSize="14sp"
+                    android:textColor="@color/grayB9"
+                    />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/distance"
+            android:paddingLeft="@dimen/listview_item_padding"
+            android:paddingStart="@dimen/listview_item_padding"
+
+            android:paddingRight="@dimen/listview_item_padding"
+            android:paddingEnd =  "@dimen/listview_item_padding"
+            android:layout_width="88dp"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:gravity="right|end"
+            android:fontFamily="sans-serif"
+            android:text="100m"
+            android:textSize="12sp"
+            android:textColor="@color/grayB9"
+            android:layout_gravity="center_vertical|right" />
+</LinearLayout>
+

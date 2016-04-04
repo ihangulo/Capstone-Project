@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="myColorPrimary">#009688</color>
+    <color name="myColorPrimaryDark">#00796B</color>
+    <color name="myColorPrimaryLight">#B2DFDB</color>
+    <color name="myColorAccent">#FFC107</color>
+    <color name="myTextColorPrimary">#212121</color>
+    <color name="myTextColorSecondary">#727272</color>
+    <color name="myColorIcons">#FFFFFF</color>
+    <color name="myColorDivider">#B6B6B6</color>
+
+    <color name="myColorBorder">#888888</color>
+    <color name="myColorGray">#CACACA</color>
+    <color name="textToolbar">#FEFEFE</color>
+    <color name="touch_selected_color">#ff64c2f4</color>
+    <color name="myColorBackground">#FFFFFF</color>
+    <color name="myWindowBackground">#EEEEEE</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="grayB9">#B9B9B9</color>
+    <color name="red">#FF0000</color>
+
+
+    <color name="md_orange_500">#FF9800</color>
+    <color name="md_orange_700">#F57C00</color>
+    <color name="md_green_500">#4CAF50</color>
+    <color name="md_grey_200">#EEEEEE</color>
+    <color name="grey_333333">#333333</color>
+    <color name="md_deep_purple_500">#673AB7</color>
+    <color name="md_deep_purple_700">#512DA8</color>
+    <color name="md_grey_400">#BDBDBD</color>
+</resources>

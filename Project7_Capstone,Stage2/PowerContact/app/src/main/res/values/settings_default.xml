@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- settings default values -->
+    <string name="pref_default_value_marker_type">0</string>
+    <string name="pref_default_value_range_distance_meter">0</string>
+    <string name="pref_default_value_range_distance_mile">0</string>
+    <string name="pref_default_value_distance_units">0</string>
+    <string name="pref_defualt_value_demo_mode_setting">false</string>
+
+</resources>

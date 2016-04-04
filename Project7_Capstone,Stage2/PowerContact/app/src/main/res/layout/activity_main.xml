@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:minHeight="?attr/actionBarSize">
+    <FrameLayout
+        android:id="@+id/top_frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+            <android.support.percent.PercentFrameLayout
+                android:id="@+id/contact_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <FrameLayout
+                    android:id="@+id/contact_map_view_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="?attr/actionBarSize"
+                    app:layout_marginBottomPercent="40%"
+                    android:layout_gravity="top"
+                    android:background="@color/white"/>
+
+                <FrameLayout
+                    android:id="@+id/contact_list_view_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:layout_heightPercent="40%"
+                    android:layout_gravity="bottom"
+                    android:background="@color/white"
+
+                    />
+            </android.support.percent.PercentFrameLayout>
+            <android.support.design.widget.AppBarLayout
+                android:id="@+id/layout_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/main_toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:elevation="4dp"
+                    app:layout_scrollFlags="scroll|enterAlways"
+                    app:titleTextAppearance="@style/ToolbarTitle"
+                    android:theme="@style/MyToolbar"
+                    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+            </android.support.design.widget.AppBarLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab_make_demo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:clickable="true"
+            android:src="@drawable/ic_autorenew_black_24dp"
+            app:layout_anchor="@id/top_frame_layout"
+            app:layout_anchorGravity="bottom|right|end"
+            android:contentDescription="@string/title_make_demo_data_btn_desc"
+            android:layout_gravity="bottom|right|end"/>
+        <TextView
+            android:id="@+id/text_demo_mode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop = "?attr/actionBarSize"
+            android:text="@string/title_demo_textview"
+            android:textSize="20sp"
+            android:background="#3F0A0A0A"
+            android:contentDescription="@string/title_demo_textview_desc"
+            android:visibility="invisible"
+            />
+
+
+        <ProgressBar
+            android:id="@+id/loading_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            />
+    </FrameLayout>
+    <android.support.design.widget.NavigationView
+        android:id="@+id/main_drawer"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start|left"
+        app:headerLayout="@layout/drawer_header"
+        app:menu="@menu/menu_drawer" />
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<item name="activity_main" type="layout">@layout/activity_main_wide</item>-->
+    <item name="contact_list_item" type="layout">@layout/contact_list_item_normal</item>
+    <item name="error_contact_list_item" type="layout">@layout/error_contact_list_item_normal</item>
+</resources>

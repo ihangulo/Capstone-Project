@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">PowerContact</string>
+    <string name="title_activity_main">PowerContact</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_error_contacts_list">Fix Problem</string>
+    <string name="title_opensources">Opensources</string>
+    <!-- Main Menu메인메뉴 -->
+    <string name="menu_main_drawer_01">Contacts Data Sync</string>
+    <string name="menu_main_drawer_02">Fix Problem</string>
+    <string name="menu_main_drawer_03">Settings</string>
+    <string name="menu_main_drawer_04">Opensources</string>
+
+
+    <!-- main action bar menu-->
+    <string name="action_settings">Setting</string>
+
+    <!-- drawer -->
+    <string name="drawer_open">Menu opened</string>
+    <string name="drawer_close">Menu closed</string>
+
+    <string name="find">Find</string>
+    <string name="hint">Enter Place</string>
+
+    <string name="title_logo_desc">Logo Image</string>
+
+    <!-- top demo button -->
+    <string name="title_demo_button">Demo</string>
+    <string name="title_demo_button_desc">Demo mode switch</string>
+    <string name="title_demo_textview">Demo Mode</string>
+    <string name="title_demo_textview_desc">Demo Mode Title</string>
+    <string name="title_make_demo_data_btn_desc">Make demo data button</string>
+
+    // search menu
+    <string name="search_title">Search Contacts</string>
+    <string name="search_hint">Name or address</string>
+
+    <string name="no_geocoder_available">No geocoder available</string>
+    <string name="fetch_address">Fetch address</string>
+    <string name="address_found">Address found</string>
+    <string name="no_address_found">Sorry, no address found</string>
+    <string name="no_location_data_provided">No location data provided</string>
+
+    <!-- error -->
+    <string name="error_msg_service_not_available">Sorry, the service is not available.</string>
+    <string name="error_msg_location_name_is_null">Passed address is null string.</string>
+    <string name="error_msg_no_internet_connection">There is no internet connection. Please check your device.</string>
+    <string name="error_msg_no_location_service">Sorry, location service is not available. Please check your location settings.</string>
+    <string name="error_msg_no_account_name">There is no account name. Please, retry.</string>
+
+
+    <!-- zipper -->
+    <string name="msg_open_panel">Open</string>
+    <string name="msg_expand_panel">Expand</string>
+    <string name="msg_close_panel">Close</string>
+
+    <!-- data -->
+    <string name="content_authority">com.hangulo.android.powercontact.apps</string>
+
+    <!-- toolbar menu -->
+    <string name="menu_action_switch_demo">Demo</string>
+
+
+    <!--  Menu options 메뉴옵션(검색메뉴) -->
+    <string name="menu_option_show_as_action">always|collapseActionView</string>
+
+    <!-- Demo mode 메인메뉴 데모 만들기 -->
+    <string name="msg_demo_data_created">of demo data are created</string>
+    <string name="msg_delete">Delete</string>
+
+    <!-- error contacts -->
+    <string name="title_status_error">ERROR</string>
+    <string name="title_status_ok">OK</string>
+
+
+    <!-- account select -->
+    <string name="msg_support_account">Supports only google account</string>
+
+    <!-- settings -->
+    <string name="pref_category_title_map_settings">Map settings</string>
+    <string name="pref_title_default_marker_type">Marker type</string>
+    <string name="pref_title_distance_units">Distance units</string>
+    <string name="pref_title_default_range_distance">View range</string>
+
+    <string name="pref_category_title_demo_mode">Demo Mode</string>
+    <string name="pref_title_demo_mode">For testing</string>
+
+    <string name="pref_key_default_marker_type">default_marker_type</string>
+    <string name="pref_key_default_range_distance">default_range_distance</string>
+    <string name="pref_key_demo_mode_setting">demo_mode_setting</string>
+
+    <string name="pref_key_default_distance_units">default_distance_units</string>
+    <string name="pref_text_negative_button">Cancel</string>
+    <!--    Permissions    -->
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \'my location\' feature, which shows your current location on the map.</string>
+    <string name="location_permission_denied">This sample requires location permission to enable the \'my location\' layer. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'Google Maps API Demos\'.</string>
+    <string name="msg_need_permission_location">Location permission is required for this app.</string>
+    <string name="msg_need_permission_contacts">Read Contacts(Only Read) permission is required for this app.</string>
+
+    <!-- location -->
+    <string name="location_updated_message">Location updated</string>
+
+    <!-- Used for the AlphabetIndexer in ContactsListFragment to provide quick navigation by
+       alphabet using ListView fast scroll. -->
+    <string name="alphabet">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="no_contacts">No Contacts Found.\nPlease expand distance option\n or re-sync with contacts.</string>
+    <string name="no_error_contacts">Good! There is no contact with error.</string>
+    <string name="search_match_other">Matches Other Field</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_add_contact">Add Contact</string>
+
+
+    <!-- cluster item info window -->
+    <string name="msg_demo_mode_clusteritem_clicked">QuickContact menu showed on real mode (This is demo mode)</string>
+    <!-- widget -->
+    <string name="title_widget_powercontact">PowerContact</string>
+    <string name="msg_no_data_name">No Data</string>
+    <string name="msg_no_data_addr">Please, run app first.</string>
+
+</resources>

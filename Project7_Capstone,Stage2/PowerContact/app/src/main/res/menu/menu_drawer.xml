@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        NavigationView에 들어갈 메뉴를 설정한다
+        아이템을 하나씩 추가하면 하나씩 늘어남
+    -->
+    <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/main_drawer_item_01"
+
+        android:title="@string/menu_main_drawer_01" />
+    <item
+        android:id="@+id/main_drawer_item_02"
+
+        android:title="@string/menu_main_drawer_02" />
+    <!--<item-->
+        <!--android:id="@+id/main_drawer_item_03"-->
+
+        <!--android:title="@string/menu_main_drawer_03" />-->
+    <item
+        android:id="@+id/main_drawer_item_04"
+
+        android:title="@string/menu_main_drawer_03" />
+
+    <item
+        android:id="@+id/main_drawer_item_05"
+
+        android:title="@string/menu_main_drawer_04" />
+
+
+
+
+    <!--  그룹을 주면 그룹별로 구분선이 감
+    <group
+        android:id="@+id/group_1"
+        android:text="그룹1"
+        android:checkableBehavior="single">
+    <item
+        android:id="@+id/navigation_item_1"
+        android:icon="@drawable/ic_number_0"
+        android:title="@string/navigation_item_1"/>
+    <item
+        android:id="@+id/navigation_item_2"
+        android:icon="@drawable/ic_number_1"
+        android:title="@string/navigation_item_2"/>
+    </group>
+    ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ구분선ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+    <group
+        android:id="@+id/group_2"
+        android:checkableBehavior="single">
+    <item
+        android:id="@+id/navigation_item_3"
+        android:icon="@drawable/ic_number_2"
+        android:title="@string/navigation_item_3"/>
+    <item
+        android:id="@+id/navigation_item_4"
+        android:icon="@drawable/ic_number_3"
+        android:title="@string/navigation_item_4"/>
+    </group>
+    ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ구분선ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+    <group
+        android:id="@+id/group_3"
+        android:checkableBehavior="single">
+    <item
+        android:id="@+id/navigation_item_5"
+        android:icon="@drawable/ic_number_4"
+        android:title="@string/navigation_item_5"/>
+    </group>
+    -->
+
+    <!-- **************************************************************** -->
+
+    <!-- 아이템 사이에 메뉴를 집어 넣으면 아이템 밑에 서브메뉴로 아이템을 넣을 수 있음
+         메인 아이템과 아이템 사이에 구분선이 생김
+    <item
+        android:id="@+id/navigation_item_1"
+        android:icon="@drawable/ic_number_0"
+        android:title="@string/navigation_item_1" >
+
+        <menu>
+            <item
+                android:id="@+id/navigation_item_2"
+                android:icon="@drawable/ic_number_1"
+                android:title="@string/navigation_item_2" />
+            <item
+                android:id="@+id/navigation_item_3"
+                android:icon="@drawable/ic_number_2"
+                android:title="@string/navigation_item_3" />
+        </menu>
+
+    </item>
+    ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ구분선ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+    <item
+        android:id="@+id/navigation_item_4"
+        android:icon="@drawable/ic_number_3"
+        android:title="@string/navigation_item_4" >
+
+        <menu>
+        <item
+            android:id="@+id/navigation_item_5"
+            android:icon="@drawable/ic_number_4"
+            android:title="@string/navigation_item_5" />
+        </menu>
+
+    </item>
+    -->
+    </group>
+
+</menu>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

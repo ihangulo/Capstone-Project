@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="contact_list_item_padding_left">10dp</dimen>
+    <dimen name="contact_list_item_padding_right">10dp</dimen>
+
+</resources>

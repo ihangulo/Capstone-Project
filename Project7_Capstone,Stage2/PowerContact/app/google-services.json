@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_id": ID_HERE,
+    "project_number": "number",
+    "name": "PowerContact"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "app-id",
+        "client_id": "android:com.hangulo.powercontact",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.hangulo.powercontact"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": KEY_HERE
+          }
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 2,
+          "test_banner_ad_unit_id": KEY_HERE,
+          "test_interstitial_ad_unit_id": KEY_HERE
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

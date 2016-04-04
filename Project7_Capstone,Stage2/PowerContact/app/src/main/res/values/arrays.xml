@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- settings -->
+    <!-- 거리 선택 -->
+    <string-array name="pref_range_distance_titles_meter">
+        <item>All</item>
+        <item>100m</item>
+        <item>500m</item>
+        <item>1km</item>
+        <item>5km</item>
+        <item>10km</item>
+        <item>50km</item>
+        <item>100km</item>
+        <!--<item>500km</item>-->
+
+    </string-array>
+    <string-array name="pref_range_distance_values_meter">
+        <item>0</item>
+        <item>100</item>
+        <item>500</item>
+        <item>1000</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>50000</item>
+        <item>100000</item>
+        <!--<item>500000</item>-->
+
+    </string-array>
+
+    <!-- Us - mile and yd -->
+    <string-array name="pref_range_distance_titles_mile">
+        <item>All</item>
+        <item>0.1mi</item>
+        <item>0.5mi</item>
+        <item>1mi</item>
+        <item>5mi</item>
+        <item>10mi</item>
+        <item>50mi</item>
+        <item>100mi</item>
+        <!--<item>500mi</item>-->
+
+    </string-array>
+    <!-- miles to meter-->
+    <string-array name="pref_range_distance_values_mile">
+        <item>0</item>
+        <item>160.934</item>
+        <item>804.672</item>
+        <item>1609.34</item>
+        <item>8046.72</item>
+        <item>16093.4</item>
+        <item>80467.2</item>
+        <item>160934</item>
+        <!--<item>804672</item>-->
+
+    </string-array>
+
+
+    <!-- 타입선택 -->
+
+
+    <string-array name="pref_marker_type_list_titles">
+        <item>Default marker</item>
+        <item>Name only</item>
+        <item>Photo+Name</item>
+        <item>Photo only</item>
+        <item>Small circle</item>
+    </string-array>
+
+    <string-array name="pref_marker_type_list_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>10</item>
+    </string-array>
+
+    <!-- distance units -->
+    <string-array name="pref_distance_units_titles">
+        <item>Automatic</item>
+        <item>Meters(m)</item>
+        <item>Miles(mi)</item>
+    </string-array>
+
+    <string-array name="pref_distance_units_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+
+    <!-- dummy data names -->
+    <string-array name="dummy_names">
+        <item>George</item>
+        <item>Dame Agatha Christie</item>
+        <item>Thomas</item>
+        <item>김구</item>
+        <item>Alice Munro</item>
+        <item>James Madison</item>
+        <item>Jane Austen</item>
+        <item>윤봉길</item>
+        <item>James Monroe</item>
+        <item>Virginia Woolf</item>
+        <item>John Quincy Adams</item>
+        <item>J. K. Rowling</item>
+        <item>안중근</item>
+        <item>Andrew Jackson</item>
+        <item>Chimamanda Ngozi Adichie</item>
+        <item>Martin Van Buren</item>
+        <item>Mary Shelley</item>
+        <item>Jawaharlal Nehru</item>
+        <item>Maya Angelou</item>
+        <item>이순신</item>
+        <item>Genghis Khan</item>
+        <item>李白</item>
+        <item>Mahatma Gandhi</item>
+        <item>Publius Ovidius Naso</item>
+        <item>Rabindranath Tagore</item>
+        <item>Homer</item>
+        <item>이육사</item>
+        <item>Ibn Battuta</item>
+        <item>Emma</item>
+        <item>Noah</item>
+        <item>Harper</item>
+        <item>Benjamin</item>
+        <item>Ava</item>
+        <item>Aiden</item>
+        <item>Madison</item>
+        <item>Jackson</item>
+        <item>Isabella</item>
+        <item>Liam</item>
+        <item>Scarlett</item>
+        <item>Hudson</item>
+        <item>Charlotte</item>
+        <item>Ezra</item>
+        <item>Stella</item>
+        <item>Declan</item>
+        <item>Violet</item>
+        <item>Ace</item>
+        <item>Elsa</item>
+        <item>James</item>
+        <item>영희</item>
+        <item>Rahul</item>
+        <item>Preity Zinta</item>
+        <item>Shahrukh Khan</item>
+        <item>Kajol</item>
+        <item>Aishwarya Rai</item>
+        <item>Raj</item>
+    </string-array>
+</resources>

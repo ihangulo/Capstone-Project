@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/image_custom_marker"
+        android:layout_width="@dimen/custom_profile_image"
+        android:layout_height="@dimen/custom_profile_image"
+        android:layout_gravity="center_horizontal"
+        android:background="@android:color/transparent"
+        android:contentDescription="photo" />
+
+    <TextView
+        android:id="@+id/text_custom_marker"
+        android:layout_width="match_parent"
+        android:maxWidth="100dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Bubble.TextAppearance.Light"
+        android:ellipsize="marquee"
+        android:background="#77000000"
+        android:paddingLeft="@dimen/custom_profile_padding"
+        android:paddingRight="@dimen/custom_profile_padding"
+        android:layout_gravity="bottom|center_horizontal"
+        android:contentDescription="name"
+        android:singleLine="true" />
+
+</FrameLayout>

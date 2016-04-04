@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2013 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<android.support.percent.PercentFrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <!--android:gravity = "right|end"-->
+<LinearLayout
+    android:layout_width="wrap_content"
+    app:layout_widthPercent="@fraction/powercontact_appbar_width"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    >
+    <!--android:layout_gravity="right|end"-->
+    <!-- Use standard android.R class list id instead of app specific id. This is just useful for
+         consistency. -->
+        <LinearLayout
+            android:id="@+id/layout_zipper"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:orientation="horizontal"
+            android:background="@color/myColorGray" >
+
+            <ImageView
+                android:id="@+id/btn_home_up"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:scaleType="center"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="4dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginEnd="8dp"
+                android:src="?attr/homeAsUpIndicator"
+                android:background="@android:color/transparent"
+                android:visibility="gone"/>
+            <android.support.v7.widget.SearchView
+                android:id="@+id/widget_searchview"
+                android:layout_width="0dp"
+                android:layout_weight="9"
+                android:layout_height="match_parent"
+                android:title="@string/search_title"
+
+                android:imeOptions = "actionSearch"
+                android:inputType= "textPersonName|textPostalAddress"
+                app:actionViewClass="android.support.v7.widget.SearchView" />
+            <!--android:icon="@drawable/ic_search_white_24dp"-->
+            <!--app:showAsAction="always|collapseActionView"-->
+
+            <!-- spinner -->
+            <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_distance"
+            android:layout_gravity="center_vertical"
+            android:theme = "@style/AppMainTheme"
+            android:popupBackground="@color/black"
+            />
+            <!--<TextView-->
+                <!--android:id="@+id/zipper"-->
+                <!--android:layout_width="0dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_gravity="center_vertical"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/msg_open_panel"-->
+                <!--android:textColor="@color/holo_blue"-->
+                <!--android:textSize="12sp"-->
+                 <!--/>-->
+        </LinearLayout>
+
+        <ListView android:id="@id/android:list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:choiceMode="singleChoice"
+            android:background="@color/white"
+
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+
+              style="@style/ContactListView"
+            />
+
+         <!-- Use standard android.R class empty id instead of app specific id. This is just useful for
+        consistency. -->
+        <TextView android:id="@id/android:empty"
+              android:gravity="center_vertical|center_horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:text="@string/no_contacts"
+              android:background="@color/white"
+              android:fontFamily="sans-serif-light"
+              android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    </LinearLayout>
+</android.support.percent.PercentFrameLayout>
